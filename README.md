@@ -53,7 +53,3 @@ This plot shows the movement trajectory of user equipment (UE) within the simula
 ![Signal Strength](result/Multiple_Rogue_bs_attacks_RSRP.png)
 
 This image visualizes the signal strength (RSRP) patterns in the presence of multiple rogue base stations attacking a 5G network. The graph illustrates how the signal strength varies with distance from the base stations and highlights potential areas where malicious base stations might interfere with legitimate user equipment.
-
-## Reference
-
-- [Generation of realistic signal strength measurements for a 5G Rogue Base Station attack scenario](https://ieeexplore.ieee.org/document/9162275)

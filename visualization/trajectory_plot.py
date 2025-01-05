@@ -42,4 +42,4 @@ def plot_ue_trajectories(bs_coords, rbs_coords, ue_positions, map_size, radius):
     # 繪製地圖邊界
     plt.plot([0, map_size, map_size, 0, 0], [0, 0, map_size, map_size, 0], 'k--', label='Map Boundary')
     plt.tight_layout()
-    plt.savefig('result/UE Movement Trajectories.png', bbox_inches='tight', dpi=300)
+    plt.savefig('result/UE_Movement_Trajectories.png', bbox_inches='tight', dpi=300)

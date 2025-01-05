@@ -36,7 +36,7 @@ def plot_all_bs_signal(T, Rxlev_bs, Rxlev_rbs, NUM_UE, NUM_BS, NUM_RBS):
     ax.grid(True)
     ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
     plt.tight_layout()
-    plt.savefig('result/RSRP from All Base Stations.png', bbox_inches='tight', dpi=300)
+    plt.savefig('result/RSRP_from_All_Base_Stations.png', bbox_inches='tight', dpi=300)
 
 def rogue_bs_data(T, Rxlev_bs, Rxlev_rbs, NUM_UE, NUM_BS, NUM_RBS, attack_periods=None, handover_threshold=3, plot=True):
     """

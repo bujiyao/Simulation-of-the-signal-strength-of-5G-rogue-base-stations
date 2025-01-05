@@ -2,9 +2,7 @@ from config import SystemConfig
 from scenario.hex_grid import *
 from scenario.signal_calculation import *
 from scenario.ue_movement import *
-from visualization.initial_plot import *
 from visualization.trajectory_plot import *
-from visualization.legitimate_bs_signal_plot import *
 from visualization.rogue_bs_signal_plot import *
 import visualization.rogue_bs_signal_plot
 
@@ -43,17 +41,7 @@ def main():
         wavelength=params['physical']['wavelength']
     )
    
-    # 繪製圖表
-    # 1. 初始位置圖
-    plot_initial_positions(
-        bs_coords=params['positions']['bs_coords'],
-        rbs_coords=params['positions']['rbs_coords'],
-        ue_initial_positions=params['positions']['ue_initial_positions'],
-        map_size=params['map']['MAP_SIZE'],
-        radius=params['map']['radius']
-    )
-   
-    # 2. 移動路徑圖
+    # 繪製移動路徑圖
     plot_ue_trajectories(
         bs_coords=params['positions']['bs_coords'],
         rbs_coords=params['positions']['rbs_coords'],
